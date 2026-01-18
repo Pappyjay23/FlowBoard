@@ -1,14 +1,14 @@
 <div align="center">
-	<h1> Techinnover - Task Management Dashboard </h1>
+	<h1> FlowBoard - Task Management Dashboard </h1>
 </div>
 
 ## Overview 📋
 
-Techinnover is a modern Task Management Dashboard designed to help users efficiently manage tasks, track progress, and stay organized. It offers a clean, user-friendly interface with essential productivity tools.
+FlowBoard is a modern Task Management Dashboard designed to help users efficiently manage tasks, track progress, and stay organized. It offers a clean, user-friendly interface with essential productivity tools.
 
 ## Snapshot 📸
 
-![Techinnover](https://github.com/user-attachments/assets/008f622e-63a9-405a-a08e-927cfd512203)
+![FlowBoard](https://github.com/user-attachments/assets/008f622e-63a9-405a-a08e-927cfd512203)
 
 ### Key Features
 - Drag and drop task management
@@ -53,7 +53,7 @@ The application follows a component-based architecture using React, with:
 
 ## Installation & Setup 💻
 
-Follow these steps to run Techinnover on your local machine.
+Follow these steps to run FlowBoard on your local machine.
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -62,13 +62,13 @@ Follow these steps to run Techinnover on your local machine.
 ### Clone this repository
 
 ```bash
-git clone https://github.com/Pappyjay23/Techinnover.git
+git clone https://github.com/Pappyjay23/FlowBoard.git
 ```
 
 ### Navigate to the directory
 
 ```bash
-cd Techinnover
+cd FlowBoard
 ```
 
 ### Install Dependencies

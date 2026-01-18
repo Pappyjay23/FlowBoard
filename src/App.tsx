@@ -1,18 +1,13 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
-import Home from "./pages/Home";
-import Settings from "./pages/Settings";
-import Inbox from "./pages/Inbox";
-import Notes from "./pages/Notes";
-import TodoList from "./pages/TodoList";
-import { ModalContextUse, ModalProvider } from "./context/ModalContext";
-import { TaskProvider } from "./context/TaskContext";
-import TaskForm from "./components/TaskForm";
-import Modal from "./components/Modal";
-import DeleteConfirmationModal from "./components/DeleteConfirmationModal";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import DeleteConfirmationModal from "./components/DeleteConfirmationModal";
+import Modal from "./components/Modal";
+import TaskForm from "./components/TaskForm";
+import { ModalContextUse, ModalProvider } from "./context/ModalContext";
+import { TaskProvider } from "./context/TaskContext";
 import { ThemeContextUse, ThemeProvider } from "./context/ThemeContext";
+import Home from "./pages/Home";
 
 function AppContent() {
 	const {
@@ -29,16 +24,11 @@ function AppContent() {
 
 	return (
 		<div
-			className={`flex h-screen   ${
+			className={`flex h-svh   ${
 				isLightMode ? "bg-white" : "bg-[#1E1E1E] text-white"
 			}`}>
-			<Sidebar />
 			<Routes>
 				<Route path='/' element={<Home />} />
-				<Route path='/inbox' element={<Inbox />} />
-				<Route path='/notes' element={<Notes />} />
-				<Route path='/todo' element={<TodoList />} />
-				<Route path='/settings' element={<Settings />} />
 			</Routes>
 
 			<Modal isOpen={isAddModalOpen} onClose={closeAddModal} title='Add Task'>
