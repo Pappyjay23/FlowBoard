@@ -8,7 +8,9 @@ FlowBoard is a modern Task Management Dashboard designed to help users efficient
 
 ## Snapshot 📸
 
-![FlowBoard](https://github.com/user-attachments/assets/008f622e-63a9-405a-a08e-927cfd512203)
+<img width="1920" height="1080" alt="FlowBoard" src="https://github.com/user-attachments/assets/28a6f172-f90d-4d6d-bc71-48be580cfe25" />
+
+
 
 ### Key Features
 - Drag and drop task management
